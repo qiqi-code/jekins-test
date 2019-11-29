@@ -14,13 +14,13 @@ public class AppTest2 extends TestCase {
 	public void testApp()
     {
     	App a=new App();
-        a.getnum();
+        a.getnum(1);
         a.count();
-        App b=new App();
-        b.getnum();
+       App b=new App();
+        b.getnum(-1);
         b.count();
         App c=new App();
-        c.getnum();
+        c.getnum(0);
         c.count();
         assertTrue( true );
     } 

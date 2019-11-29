@@ -9,16 +9,37 @@ import org.apache.commons.math3.stat.descriptive.summary.Product;
 import org.apache.commons.math3.stat.descriptive.summary.Sum; 
 
 	public class App {
-		    double[] values = new double[10]; 
-	     public  void  getnum() { 
-	        Scanner in = new Scanner(System.in);
-	        System.out.println("请输入十个数字:");
-	        int a=10;
-	        for(int i=0;i<a;i++)
-	        {
-	        	values[i]=in.nextDouble();
-	        }
-	  }
+		double[] values = new double[10]; 
+		public void getnum(int a)
+		{
+			if(a==1)
+			{
+				for(int i=0;i<10;i++)
+				{
+					values[i]=i+1;
+				}
+			}
+			if(a==-1)
+			{
+				for(int i=0;i<10;i++)
+				{
+					values[i]=-i-1;
+				}
+			}
+			if(a==0)
+			{
+				for(int i=0;i<5;i++)
+				{
+					values[i]=i+1;
+				}
+				for(int i=5;i<10;i++)
+				{
+					values[i]=-i-1;
+				}
+			}
+		}
+		    
+	       
 	       
 	       public void count(){
 	    	    Mean mean = new Mean(); // 算术平均值 
