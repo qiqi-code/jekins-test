@@ -16,12 +16,12 @@
         <pathelement location="target/classes"/>
         <pathelement location="target/test-classes"/>
         <path refid="Maven Dependencies.libraryclasspath"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1.jar"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1-tests.jar"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1-tools.jar"/>
-        <pathelement location="../../Desktop/commons-math3-3.6.1/commons-math3-3.6.1-test-sources.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1-tests.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1-tools.jar"/>
+        <pathelement location="lab/commons-math3-3.6.1/commons-math3-3.6.1-test-sources.jar"/>
     </path>
     <path id="run.App (1).classpath">
         <path refid="test1.classpath"/>
