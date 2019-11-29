@@ -13,12 +13,12 @@
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="${dir.jarfile}/target/classes"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1-tests.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1-tools.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1/commons-math3-3.6.1-test-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1-tests.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1-tools.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lab/commons-math3-3.6.1-test-sources.jar"/>
         </jar>
     </target>
 </project>
